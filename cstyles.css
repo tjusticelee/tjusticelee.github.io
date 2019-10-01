@@ -16,7 +16,7 @@ h1 {
   align-items: flex-start;
   justify-content: space-between;
   margin-right: 700px;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 p {
@@ -28,4 +28,34 @@ p {
   color: #B8C4BB;
   background-color: #C9D6EA;
   align-content: space-around;
+  padding-right: 50px;
+}
+
+img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 400px;
+  color: #B8C4BB;
+  background-color: #C9D6EA;
+  align-content: space-around;
+  padding-right: 50px;
+}
+
+.second {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 500px;
+  color: #B8C4BB;
+  background-color: #C9D6EA;
+  align-content: space-around;
+  padding-right: 50px;
 }
