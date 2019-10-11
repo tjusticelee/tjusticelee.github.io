@@ -63,3 +63,12 @@ ul {
 .third-co {
   margin-left: 700px;
 }
+
+.welcome {
+  font-size: 200px;
+  background-color: #663f46;
+}
+
+img {
+  float: left;
+}
