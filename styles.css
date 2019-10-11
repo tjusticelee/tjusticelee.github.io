@@ -9,11 +9,16 @@ a {
   color: #3c362a;
 }
 
+li:hover {
+  background: #B8C4BB;
+}
+
 body{
   background-color: #663f46;
 }
 
-h1 {
+h1,
+h2 {
   background-color: #3C362A;
   color: #B8C4BB;
 }
@@ -36,6 +41,7 @@ ul {
 
 .cover-title {
   align-items: flex-start;
+  box-shadow: -20px 10px 17px 5px black;
   display: flex;
   font-size: 175px;
   justify-content: space-between;
@@ -45,15 +51,16 @@ ul {
 }
 
 .first-co, .second-co, .third-co {
+  align-content: space-around;
+  background-color: #C9D6EA;
+  color: #B8C4BB;
   display: flex;
-  justify-content: flex-end;
   font-size: 35px;
+  justify-content: flex-end;
   margin-top: 50px;
   margin-left: 400px;
-  color: #B8C4BB;
-  background-color: #C9D6EA;
-  align-content: space-around;
   padding-right: 50px;
+  transition: background .5s, color .5s;
 }
 
 .second-co {
@@ -69,6 +76,14 @@ ul {
   background-color: #663f46;
 }
 
-img {
-  float: left;
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.bio
+p {
+  background-color: #B8C4BB;
 }
