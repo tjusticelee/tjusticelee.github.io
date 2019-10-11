@@ -26,6 +26,7 @@ h2 {
 p {
   align-content: space-around;
   background-color: #3C362A;
+  box-shadow: 20px 10px 17px 5px black;
   color: #B8C4BB;
   display: flex;
   font-size: 35px;
@@ -53,6 +54,7 @@ ul {
 .first-co, .second-co, .third-co {
   align-content: space-around;
   background-color: #C9D6EA;
+  box-shadow: 20px 10px 17px 5px black;
   color: #B8C4BB;
   display: flex;
   font-size: 35px;
@@ -83,7 +85,11 @@ ul {
   padding-bottom: 50px;
 }
 
+img {
+  margin-left: 150px;
+}
+
 .bio
 p {
-  background-color: #B8C4BB;
+  background-color:
 }
