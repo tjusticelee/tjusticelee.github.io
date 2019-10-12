@@ -76,6 +76,27 @@ ul {
   margin-left: 700px;
 }
 
+/* expertise page */
+
+.expnav1,
+.expnav2,
+.expnav3 {
+  align-content: space-around;
+  background-color: #C9D6EA;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  margin-left: 400px;
+}
+
+.expnav2{
+  margin-left: 500px;
+}
+
+.expnav3 {
+  margin-left: 700px;
+}
+
 .welcome {
   font-size: 200px;
   background-color: #663f46;
