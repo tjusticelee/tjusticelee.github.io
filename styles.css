@@ -100,7 +100,8 @@ ul {
   padding-right: 5px;
 }
 
-.welcome {
+.welcome,
+.aboutme {
   font-size: 200px;
   background-color: #663f46;
   border-bottom: 25px solid #B8C4BB;
