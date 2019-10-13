@@ -78,6 +78,11 @@ ul {
 
 /* expertise page */
 
+.expdr {
+  position: fixed;
+  right: 0px;
+}
+
 .expnav1,
 .expnav2,
 .expnav3 {
@@ -86,20 +91,16 @@ ul {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 15px;
-  margin-left: 400px;
-}
-
-.expnav2{
   margin-left: 500px;
-}
-
-.expnav3 {
-  margin-left: 700px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .welcome {
   font-size: 200px;
   background-color: #663f46;
+  border-bottom: 25px solid #B8C4BB;
+  width: 75%;
 }
 
 .bio {
@@ -107,13 +108,31 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 img {
   margin-left: 150px;
+  box-shadow: 20px 20px 20px black;
 }
 
 .bio
 p {
   background-color:
+}
+
+/****************project(s)*********/
+
+h2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size:30px;
+  color: #E8F7EE;
 }
