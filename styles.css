@@ -5,8 +5,8 @@
 }
 
 a {
-  text-decoration: none;
   color: #3c362a;
+  text-decoration: none;
 }
 
 li:hover {
@@ -173,32 +173,31 @@ h2 {
 }
 
 h3 {
-  font-size:30px;
-  color: #E8F7EE;
-  margin-top: 50px;
-
-  border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
   border-right: 20px solid #E8F7EE;
+  border-top: 30px solid transparent;
+  color: #E8F7EE;
+  font-size:30px;
   width: 10%;
+  margin-top: 50px;
 }
 
 footer {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-around;
 }
 
 .social-links {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 /* personal page */
 
 iframe {
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
+  justify-content: space-around;
   margin-left: 100px;
 }
