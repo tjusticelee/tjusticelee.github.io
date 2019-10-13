@@ -78,14 +78,18 @@ ul {
 
 /* expertise page */
 
-.expdr {
+.expdr,
+.abtdr {
   position: fixed;
   right: 0px;
 }
 
 .expnav1,
 .expnav2,
-.expnav3 {
+.expnav3,
+.abtnav1,
+.abtnav2,
+.abtnav3 {
   align-content: space-around;
   background-color: #C9D6EA;
   display: flex;
@@ -121,7 +125,13 @@ p {
   background-color:
 }
 
-/****************project(s)*********/
+/****************Expertise and project(s)*********/
+
+.expertise
+p {
+  padding-bottom: 20px;
+   padding-top: 20px;
+}
 
 h2 {
   margin-bottom: 50px;
@@ -130,9 +140,24 @@ h2 {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid #B8C4BB;
+  border-bottom: 20px solid #B8C4BB;
+
+  box-shadow: 0px 15px 15px black;
 }
 
 h3 {
   font-size:30px;
   color: #E8F7EE;
+  margin-top: 50px;
+
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 20px solid #E8F7EE;
+  width: 10%;
 }
+
+/* personal page */
