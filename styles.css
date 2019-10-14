@@ -6,10 +6,7 @@
 
 a {
   color: #3c362a;
-  display: block;
-  justify-content: flex-end;
   text-decoration: none;
-  width: 100%;
 }
 
 li:hover {
@@ -18,6 +15,13 @@ li:hover {
 
 body{
   background-color: #663f46;
+}
+
+.cover-anchor1,
+.cover-anchor2,
+.cover-anchor3 {
+  display: block;
+  width: 100%;
 }
 
 h1,
