@@ -6,7 +6,9 @@
 
 a {
   color: #3c362a;
+  display: block;
   text-decoration: none;
+  width: 100%;
 }
 
 li:hover {
