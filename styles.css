@@ -19,7 +19,8 @@ body{
 
 .cover-anchor1,
 .cover-anchor2,
-.cover-anchor3 {
+.cover-anchor3,
+.cover-anchor4 {
   display: block;
   width: 100%;
   text-align: right;
