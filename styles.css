@@ -62,7 +62,10 @@ ul {
   padding-left: 20px;
 }
 
-.first-co, .second-co, .third-co {
+.first-co,
+.second-co, 
+.third-co,
+.fourth-co {
   align-content: space-around;
   background-color: #C9D6EA;
   box-shadow: 20px 10px 17px 5px black;
@@ -215,7 +218,7 @@ iframe {
 
 **/
 @media screen and (max-width: 600px) {
- 
+
  .bio {
    flex-wrap: wrap;
  }
