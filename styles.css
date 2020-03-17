@@ -40,7 +40,7 @@ p {
   display: flex;
   font-size: 35px;
   justify-content: flex-end;
-  margin-left: 250px;
+  margin-left: 10vw;
   margin-top: 100px;
   padding-right: 50px;
   text-shadow: 5px 5px 5px black;
@@ -56,7 +56,7 @@ ul {
   display: flex;
   font-size: 175px;
   justify-content: space-between;
-  margin-right: 700px;
+  margin-right: 5vw;
   margin-top: 200px;
   padding-left: 20px;
 }
@@ -70,18 +70,18 @@ ul {
   font-size: 35px;
   justify-content: flex-end;
   margin-top: 50px;
-  margin-left: 400px;
-  padding-right: 50px;
+  margin-left: 50vw;
+  padding-right: 40px;
   text-shadow: 3px 3px 3px grey;
   transition: background .5s, color .5s;
 }
 
 .second-co {
-  margin-left: 500px;
+  margin-left: 55vw;
 }
 
 .third-co {
-  margin-left: 700px;
+  margin-left: 60vw;
 }
 
 /* expertise page */
@@ -185,8 +185,8 @@ h3 {
   border-right: 20px solid #E8F7EE;
   border-top: 30px solid transparent;
   color: #E8F7EE;
-  font-size:30px;
-  width: 10%;
+  font-size: 30px;
+  width: 6em;
   margin-top: 50px;
 }
 
@@ -208,4 +208,40 @@ iframe {
   flex-direction: row;
   justify-content: space-around;
   margin-left: 100px;
+}
+
+/** @media screen and (max-width: 800px) {
+
+**/
+@media screen and (max-width: 600px) {
+ 
+ .bio {
+   flex-wrap: wrap;
+ }
+ .bio img {
+   margin-left: 0;
+ }
+ .cover-title {
+   margin-right: 0;
+   font-size: 30vw;
+ }
+
+ .first-co,
+ .second-co,
+ .third-co {
+   margin-left: 0;
+   padding: 0;
+ }
+
+ .welcome, .aboutme {
+   font-size: 23vw;
+ }
+
+ .iframe {
+   margin-left: 0;
+ }
+
+ p {
+   margin-left: 0;
+ }
 }
