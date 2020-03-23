@@ -63,7 +63,7 @@ ul {
 }
 
 .first-co,
-.second-co, 
+.second-co,
 .third-co,
 .fourth-co {
   align-content: space-around;
@@ -86,6 +86,10 @@ ul {
 
 .third-co {
   margin-left: 60vw;
+}
+
+.fourth-co {
+  margin-left: 70vw;
 }
 
 /* expertise page */
